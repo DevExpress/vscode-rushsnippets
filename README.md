@@ -1,4 +1,4 @@
-# RushPlate 
+# Plate 
 Templates for TypeScript, React and Redux projects that help you write your code faster.
 _____
 This VS Code extension includes templates for TypeScript, React and Redux projects. Templates are easy-to-memorize character sequences that expand into boilerplate code such as class or property definition. Templates help you write code faster. 
@@ -8,7 +8,7 @@ This VS Code extension includes templates for TypeScript, React and Redux projec
 
 ### Two Ways to Expand a Template
 
-**RushPlate** allows you to quickly expand a template. If you know the template name, just type it and press **Space**. 
+**Plate** allows you to quickly expand a template. If you know the template name, just type it and press **Space**. 
 
 ![](media/template_space.gif "Template space")
 
@@ -17,7 +17,7 @@ You can also choose the required item from the IntelliSence list and press **Ent
 
 ### Context-dependent Templates 
 
-**RushPlate** analyzes code and expands different templates depending on the context. For example, **RushPlate** can create the following code for the "c" template: 
+**Plate** analyzes code and expands different templates depending on the context. For example, **Plate** can create the following code for the "c" template: 
 
   1. A class, if you expand the template in a file root. 
   2. A constructor, if you expand the template inside a class.
@@ -28,22 +28,22 @@ You can also choose the required item from the IntelliSence list and press **Ent
 
 ### Dependent Namespace Declaration
 
-**RushPlate** adds dependent imports to the top of a file, where other imports are located. It also checks if similar modules are already exist and adds only modules that are not declared in the file.
+**Plate** adds dependent imports to the top of a file, where other imports are located. It also checks if similar modules are already exist and adds only modules that are not declared in the file.
 
 ![](media/template_namespace_declaration.gif "Template namespace declaration")
 
 
 ### Linked Identifiers
 
-If a template contains linked identifiers used several times in code, you can quickly change identifiers’ name in one link after the template expansion and **RushPlate** will change text  in other links.
-**RushPlate** also keeps links active constantly. You can remove the caret from links, for example, move the caret to another file, and then, go back and continue your change. 
+If a template contains linked identifiers used several times in code, you can quickly change identifiers’ name in one link after the template expansion and **Plate** will change text  in other links.
+**Plate** also keeps links active constantly. You can remove the caret from links, for example, move the caret to another file, and then, go back and continue your change. 
 
 ![](media/template_links.gif "Template links")
 
 
 ### Different Prefixes for the Same Templates
 
-**RushPlate** can expand templates using short combinations such as "c" (to add a class, constructor, or constant), "rc" (to add a React component), " rpc" (to add a React Pure component), and others. If you prefer to use a more understandable and standardized syntax, you can expand the same templates using the following mnemonics: "class", "react component", "react pure component".
+**Plate** can expand templates using short combinations such as "c" (to add a class, constructor, or constant), "rc" (to add a React component), " rpc" (to add a React Pure component), and others. If you prefer to use a more understandable and standardized syntax, you can expand the same templates using the following mnemonics: "class", "react component", "react pure component".
 
 
 ![](media/template_prefixes.gif "Template prefixes")
@@ -51,7 +51,7 @@ If a template contains linked identifiers used several times in code, you can qu
 
 ## Usage
 
-Type a template name, for example **c**, and press **Space** or choose the "c" item from  IntelliSense and press **Enter**. **RushPlate** creates a class and suggests its name. Press **Enter** to apply this suggestion or change this name. 
+Type a template name, for example **c**, and press **Space** or choose the "c" item from  IntelliSense and press **Enter**. **Plate** creates a class and suggests its name. Press **Enter** to apply this suggestion or change this name. 
 
 The screencast below shows "c" and ""arf" template expansions:
 
