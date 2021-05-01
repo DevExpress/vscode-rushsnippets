@@ -10,7 +10,7 @@ This VS Code extension includes templates for TypeScript, React and Redux projec
 
 **RushPlate** allows you to quickly expand a template. If you know the template name, just type it and press **Space**.
 
-![](media/template_space.gif "Template space")
+![Template space](media/template_space.gif "Template space")
 
 You can also choose the required item from the IntelliSence list and press **Enter**.
 
@@ -22,14 +22,14 @@ You can also choose the required item from the IntelliSence list and press **Ent
   1. A class with a constructor, if you expand the template in a file root. 
   2. A constant, if you expand the template inside a constructor. 
 
-![](media/template_context.gif "Template context")
+![Template context](media/template_context.gif "Template context")
 
 
 ### Dependent Namespace Declaration
 
 **RushPlate** adds dependent imports to the top of a file, where other imports are located. It also checks if similar modules are already exist and adds only modules that are not declared in the file.
 
-![](media/template_namespace_declaration.gif "Template namespace declaration")
+![Template namespace declaration](media/template_namespace_declaration.gif "Template namespace declaration")
 
 
 ### Linked Identifiers
@@ -37,7 +37,7 @@ You can also choose the required item from the IntelliSence list and press **Ent
 If a template contains linked identifiers used several times in code, you can quickly change identifiers’ name in one link after the template expansion and **RushPlate** will change text  in other links.
 **RushPlate** also keeps links active constantly. You can remove the caret from links, for example, move the caret to another file, and then, go back and continue your change.
 
-![](media/template_links.gif "Template links")
+![Template links](media/template_links.gif "Template links")
 
 
 ### Different Prefixes for the Same Templates
@@ -45,7 +45,7 @@ If a template contains linked identifiers used several times in code, you can qu
 **RushPlate** can expand templates using short combinations such as "c" (to add a class with a constructor, or constant), "rc" (to add a React component), " rpc" (to add a React Pure component), and others. If you prefer to use a more understandable and standardized syntax, you can expand the same templates using the following mnemonics: "class with constructor", "react component", and "react pure component".
 
 
-![](media/template_prefixes.gif "Template prefixes")
+![Template prefixes](media/template_prefixes.gif "Template prefixes")
 
 
 ## Usage
@@ -54,7 +54,7 @@ Type a template name, for example **c**, and press **Space** or choose the "c" i
 
 The screencast below shows "c" and "afn" template expansions:
 
-![](media/template_usage.gif "Template usage")
+![Template usage](media/template_usage.gif "Template usage")
 
 
 ## Code Templates
