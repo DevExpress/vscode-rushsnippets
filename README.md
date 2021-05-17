@@ -1,12 +1,5 @@
-# Rush Core
-
-Contains utility services for CodeRush **Rush Snippets** and **Rush Nav** extensions. Install the **Rush Snippets** extension to use templates for TypeScript, React and Redux for quick code creation. 
-The **Rush Nav** extension can help you quckly navigate to TypeScript type declarations and references.
-
 # Rush Snippets 
-[Short Description for title]
-Templates for TypeScript, React and Redux projects that help you write your code faster.
-_____
+
 This VS Code extension includes templates for TypeScript, React and Redux projects. Templates are easy-to-memorize character sequences that expand into boilerplate code such as class or property definition. Templates help you write code faster. 
 
 
@@ -29,8 +22,8 @@ You can also choose the required item from the IntelliSence list and press **Ent
 
 The **Rush Snippets** extension analyzes code and expands different templates depending on the context. For example, **Rush Snippets** can create the following code for the "c" template: 
 
-  1. A class with a constructor, if you expand the template in a file root. 
-  2. A constant, if you expand the template inside a constructor. 
+1\. A class with a constructor, if you expand the template in a file root.   
+2\. A constant, if you expand the template inside a constructor. 
 
 ![](media/rush-snippets-context-dependent-templates.gif)
 
@@ -80,33 +73,33 @@ You can also expand a template with **Tab** or a custom keyboard shortcut.
 
 ### Add a Custom Keyboard Shortcut to Expand a Template
 
-1) Open the **Keyboard Shortcuts** editor:
+1\. Open the **Keyboard Shortcuts** editor:
 
-*	Go to the **File** | **Preferences** | **Keyboard Shortcuts** menu item 
+* Go to the **File** | **Preferences** | **Keyboard Shortcuts** menu item 
 
-    ![](media/rush-snippets-open-keyboard-shortcuts-menu-item.png)
+![](media/rush-snippets-open-keyboard-shortcuts-menu-item.png)
 
 
 or 
 
 * Сlick **Manage** and choose **Keyboard Shortcuts** item. 
 
-  ![](media/rush-snippets-click-manage-keyboard-shortcuts.png)
+![](media/rush-snippets-click-manage-keyboard-shortcuts.png)
 
-2) Find the **CodeRush.expandTemplateWithOther** command, select it, and click **Change Keybinding** (the default shortcut for this command is **Ctrl + Space**).  
+2\. Find the **CodeRush.expandTemplateWithOther** command, select it, and click **Change Keybinding** (the default shortcut for this command is **Ctrl + Space**).  
 
-   ![](media/rush-snippets-find-coderush-expandtemplatewothother-command.png)
+![](media/rush-snippets-find-coderush-expandtemplatewothother-command.png)
 
 
-3)  In the dialog that appears, press the desired keyboard shortcut to bind to this command and press **Enter**. 
+3\. In the dialog that appears, press the desired keyboard shortcut to bind to this command and press **Enter**. 
    
-    ![](media/rush-snippets-press-desired-key-combination.png)
+![](media/rush-snippets-press-desired-key-combination.png)
 
-4) Open the Visual Studio Code settings. To do this, go to the **File** | **Preferences** | **Settings** menu item or click  **Manage** and choose the **Settings** item.
-5) Open the **Extensions -> Rush Snippets** page and set the **"Trigger template expansion with"** option to the "Tab key" (to expand templates with **Tab**) or "Other key" value (to expand a template with a custom shortcut bound to the **CodeRush.expandTemplateWithOther** command). 
+4\. Open the Visual Studio Code settings. To do this, go to the **File** | **Preferences** | **Settings** menu item or click  **Manage** and choose the **Settings** item.
 
+5\. Open the **Extensions -> Rush Snippets** page and set the **"Trigger template expansion with"** option to the "Tab key" (to expand templates with **Tab**) or "Other key" value (to expand a template with a custom shortcut bound to the **CodeRush.expandTemplateWithOther** command). 
 
-    ![](media/rush-snippets-trigger-template-expansion-with-option.png)
+![](media/rush-snippets-trigger-template-expansion-with-option.png)
 
 
 ## Code Templates
