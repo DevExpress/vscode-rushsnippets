@@ -1,112 +1,77 @@
 # Rush Snippets 
 
-This VS Code extension includes templates for TypeScript, React and Redux projects. Templates are easy-to-memorize character sequences that expand into boilerplate code such as class or property definition. Templates help you write code faster. 
+Code snippet templates for TypeScript, React and Redux projects. Template snippets are easy-to-recall shortcuts you type into VS Code that expand into larger blocks of boilerplate code developers create all the time. 
 
+Rush Snippets can help you declare code more efficiently, with fewer keystrokes, fewer mistakes, less physical strain, and an overall lower cognitive load.
 
 ## Features
 
+### Context-aware Code Creation 
+
+**Rush Snippets** analyzes code and expands snippets appropriately depending on the surrounding context. For example, to declare a new variable that's a number, just type in "vn" ("v" for variable, "n" for number -- see, we told you it was easy to recall).
+
+Rush Snippets includes six different expansions for this snippet, so you can use that same snippet to declare field variables, local variables, and parameters: 
+
+![](media/rush-snippets-context-dependent-templates.gif)
+
+Rush Snippets will even add missing commas to parameter declarations if needed.
+
+What you get depends on where you are.
+
 ### Two Ways to Expand a Template
 
-The **Rush Snippets** extension allows you to quickly expand a template. If you know the template name, just type it and press **Space**. 
+The **Rush Snippets** extension allows you to quickly expand a template. If you know the snippet shortcut sequence, just type it and press **Space**. 
 
 ![](media/rush-snippets-expand-a-template-with-space.gif)
 
 
+You can also use IntelliSence to find the expansion you need. In this case, just type in a bit of what you want, and press **Enter** on the Snippet you want to expand.
 
 
-You can also choose the required item from the IntelliSence list and press **Enter**.
+### Automatic Namespace Declaration
 
-
-
-### Context-dependent Templates 
-
-The **Rush Snippets** extension analyzes code and expands different templates depending on the context. For example, **Rush Snippets** can create the following code for the "c" template: 
-
-1\. A class with a constructor, if you expand the template in a file root.   
-2\. A constant, if you expand the template inside a constructor. 
-
-![](media/rush-snippets-context-dependent-templates.gif)
-
-
-
-### Dependent Namespace Declaration
-
-**Rush Snippets** adds dependent imports to the top of a file, where other imports are located. It also checks if similar modules are already exist and adds only modules that are not declared in the file.
+**Rush Snippets** adds missing dependent imports (if needed by the snippet expansion) to the top of the file, next to any existing imports. It also checks if similar module imports already exist and will only adds modules that are not yet declared in the file.
 
 ![](media/rush-snippets-dependent-namespace-declaration.gif)
 
 
 ### Linked Identifiers
 
-If a template contains linked identifiers used several times in code, you can quickly change identifiers' name in one link after the template expansion and **Rush Snippets** will change text  in other links.
-The **Rush Snippets** extension also keeps links active constantly. You can remove the caret from links, for example, move the caret to another file, and then, go back and continue your change. 
+If a snippet contains linked identifiers or repeated text that needs to stay in sync, you can quickly change that repeated text in one step. **Rush Snippets** all the links stay in sync, even if you move the caret away. 
 
 ![](media/rush-snippets-linked-identifiers.gif)
 
+You can break this sync by pressing **Enter** while the caret is on a link.
 
-### Different Prefixes for the Same Templates
+### Different Sequences Can Trigger the Same Expansion
 
-**Rush Snippets** can expand templates using short combinations such as "c" (to add a class with a constructor, or constant), "rc" (to add a React component), " rpc" (to add a React Pure component), and others. If you prefer to use a more understandable and standardized syntax, you can expand the same templates using the following mnemonics: "class with constructor", "react component", and "react pure component".
-
+**Rush Snippets** can expand templates using ultra-short sequences such as "c" (to add a class with a constructor), "rc" (to add a React component), "rpc" (to add a React Pure component), and others. If you prefer, you can also expand these same snippets by just typing in what you want to create, such as "class with constructor", "react component", and "react pure component".
 
 ![](media/rush-snippets-different-prefixes-for-templates.gif)
 
 
 
-
 ## Usage
 
-* Type a template name, for example **c**
+* Type a snippet shortcut where you need it, for example **c** to create a new class.
 
-* Press **Space** or choose the "c" item from  IntelliSense and press **Enter** 
- The **Rush Snippets** extension creates a class with a constructor and suggests its name. 
+* Press **Space** or choose the snippet from IntelliSense and press **Enter** 
+ **Rush Snippets** replaces the sequence with the snippet expansion. For example, creating a class with a constructor. 
 
-* Press **Enter** to apply this suggestion or change this name. 
+* Some snippets might prompt you for changes. You'll see a highlighted box around these prompts. Just type in what you need and press **Enter** to move to the next prompt (if any). 
 
 The screencast below shows "c" and "afn" template expansions:
 
 ![](media/rush-snippets-template-usage.gif)
 
 
-You can also expand a template with **Tab** or a custom keyboard shortcut.
+You can also expand a template with the **Tab** key, or a different custom keyboard shortcut if you prefer.
 
-
-### Add a Custom Keyboard Shortcut to Expand a Template
-
-1\. Open the **Keyboard Shortcuts** editor:
-
-* Go to the **File** | **Preferences** | **Keyboard Shortcuts** menu item 
-
-![](media/rush-snippets-open-keyboard-shortcuts-menu-item.png)
-
-
-or 
-
-* Сlick **Manage** and choose **Keyboard Shortcuts** item. 
-
-![](media/rush-snippets-click-manage-keyboard-shortcuts.png)
-
-2\. Find the **CodeRush.expandTemplateWithOther** command, select it, and click **Change Keybinding** (the default shortcut for this command is **Ctrl + Space**).  
-
-![](media/rush-snippets-find-coderush-expandtemplatewothother-command.png)
-
-
-3\. In the dialog that appears, press the desired keyboard shortcut to bind to this command and press **Enter**. 
-   
-![](media/rush-snippets-press-desired-key-combination.png)
-
-4\. Open the Visual Studio Code settings. To do this, go to the **File** | **Preferences** | **Settings** menu item or click  **Manage** and choose the **Settings** item.
-
-5\. Open the **Extensions -> Rush Snippets** page and set the **"Trigger template expansion with"** option to the "Tab key" (to expand templates with **Tab**) or "Other key" value (to expand a template with a custom shortcut bound to the **CodeRush.expandTemplateWithOther** command). 
-
-![](media/rush-snippets-trigger-template-expansion-with-option.png)
-
-
-## Code Templates
+## Code Snippets
 
 The following tables list all available templates for TypeScript, React and Redux:
 
-### TypeScript Templates
+### TypeScript Snippets
 
 #### Type Creation
 
@@ -121,46 +86,45 @@ The following tables list all available templates for TypeScript, React and Redu
 | **i**, **interface**  | Creates an interface. |
 | **t**, **type literal**  | Creates a type literal. |
 | **t,**, **type simple literal**  | Creates a type simple literal. |
+| **tu**, **type union**  | Creates a union type. Press Enter to add more type unions. Press Escape when done. |
 | **e**  | Creates an enum. |
 | **cc**  | Creates a constructor. |
 
 
 
-
 #### Type Reference
 
-| Member Kind  | Void | String   | Number| Boolean | Object| Any | Clipboard|
+| Member Kind  | String   | Number| Boolean | Object| Any | Clipboard| Void |
 |---|---|---|---|---|---|---|---|
-| **Type Reference** |tv | ts | tn | tb | to | ty| tp|
-| **Array Type Reference**| -  | tas | tan | tab | tao | tay| tap|
-
+| **Type Reference** | ts | tn | tb | to | ty| tp|tv |
+| **Type Array Reference**|  tas | tan | tab | tao | tay| tap| -  |
 
 
 #### Members Declaration
 
 ##### Properties and Functions
 
-| Member Kind  | Void |String   | Number| Boolean | Object| Any| Clipboard |
+| Member Kind  |String   | Number| Boolean | Object| Any| Clipboard | Void |
 |---|---|---|---|---|---|---|---|
-| **Property**  | - | ps | pn | pb | po | py| pp|
-| **Property of an Array of** | -  | pas | pan | pab | pao | pay| pap|
-| **Read-only Property** | - | rs | rn | rb | ro | ry| rp|
-| **Read-only Property of an Array of** | - | ras | ran | rab | rao | ray| rap|
-| **Function** |f | fs | fn | fb | fo | fy| fp|
-| **Function of an Array of** |  | fas | fan | fab | fao | fay| fap|
-| **Arrow Function** | af | afs | afn | afb | afo | afy| afp|
-| **Arrow Function of an Array of** | - | afas | afan | afab | afao | afay| afap|
-| **Async Function** | yf | yfs | yfn | yfb | yfo | yfy| yfp|
-| **Async Function of an Array of** | - | yfas | yfan | yfab | yfao | yfay| yfap|
-| **Async Arrow Function** | yaf | yafs | yafn | yafb | yafo | yafy| yafp|
-| **Async Arrow Function of an Array of** | - | yafas | yafan | yafab | yafao | yafay| yafap|
+| **Property**  |  ps | pn | pb | po | py| pp| - |
+| **Property - Array of** | pas | pan | pab | pao | pay| pap| -  |
+| **Read-only Property** | rs | rn | rb | ro | ry| rp| - |
+| **Read-only Property - Array of** | ras | ran | rab | rao | ray| rap| - |
+| **Function** | fs | fn | fb | fo | fy| fp|f |
+| **Function - Array of** | fas | fan | fab | fao | fay| fap|  |
+| **Arrow Function** | afs | afn | afb | afo | afy| afp| af |
+| **Arrow Function - Array of** | afas | afan | afab | afao | afay| afap| - |
+| **Async Function** | yfs | yfn | yfb | yfo | yfy| yfp| yf |
+| **Async Function - Array of** | yfas | yfan | yfab | yfao | yfay| yfap| - |
+| **Async Arrow Function** | yafs | yafn | yafb | yafo | yafy| yafp| yaf |
+| **Async Arrow Function - Array of** | yafas | yafan | yafab | yafao | yafay| yafap| - |
 
 
 
 ##### Constants, Variables, Fields, and Parameters
 
 
-| Member Kind  | String   | Number| Boolean | Object| Any| Clipboard
+| Member Kind  | String   | Number| Boolean | Object| Any| Paste |
 |---|---|---|---|---|---|---|
 | **Constant**  | qs | qn | qb | qo | qy| qp|
 | **Constant of Array of**  | qas | qan | qab | qao | qay| qap|
@@ -168,9 +132,14 @@ The following tables list all available templates for TypeScript, React and Redu
 | **Variable/Field/Parameter of Array of**  | vas | van | vab | vao | vay| vap|
 | **Variable/Field/Parameter of Array of initialized to []**  | nas | nan | nab | nao |nay | nap|
 | **Variable/Field/Parameter with a new**  | ns | nn | nb | -  |na | np|
-| **Variable/Field/Parameter with a new Map**  | nmss nmns nmps | nmsn nmnn nmpn | nmsb   nmnb   nmpb | - |nmsy   nmny  nmpy | nmsp nmnp nmpp|
 
 
+##### Declaring New Maps
+
+| Key ▼ + Element Type ► | String   | Number| Boolean | Any| Clipboard Paste |
+| string  | nmss | nmsn | nmsb | nmsy | nmsp |
+| number  | nmns | nmnn | nmnb | nmny | nmnp |
+| Clipboard Paste| nmps | nmpn | nmpb | nmpy | nmpp |
 
 
 
@@ -200,13 +169,13 @@ The following tables list all available templates for TypeScript, React and Redu
 | Template  | Description  | 
 |---|---|
 | **fof**  | Creates a for-of loop with an element iterator. | 
-| **fi**  | Creates a for loop with an index iterator. | 
-| **fri**  | Creates a for loop with an iterator variable named "i". | 
-| **frix**  | Creates a for loop with an iterator variable named "index".
-| **frj**  | Creates a for loop with an iterator variable named "j". |
-| **frx** | Creates a for loop with an iterator variable named "x". |
-| **fry**  | Creates a for loop with an iterator variable named "y". |
-| **frz**  | Creates a for loop with an iterator variable named "z". |
+| **fi**  | Creates a for-loop with an index iterator. | 
+| **fri**  | Creates a for-loop with an iterator variable named "i". | 
+| **frix**  | Creates a for-loop with an iterator variable named "index".
+| **frj**  | Creates a for-loop with an iterator variable named "j". |
+| **frx** | Creates a for-loop with an iterator variable named "x". |
+| **fry**  | Creates a for-loop with an iterator variable named "y". |
+| **frz**  | Creates a for-loop with an iterator variable named "z". |
 | **w**, **while**  | Creates a while statement. |
 | **if**  | Creates an if statement. |
 | **ife**, **ifelse**  | Creates an if-else statement. |
@@ -333,6 +302,38 @@ The following tables list all available templates for TypeScript, React and Redu
 | **cl&#92;**, **console log string** | Creates a Simple console.log call (double quotes).
 | **cl-**, **console log instance** | Creates a Simple console.log call.
 | **cloo**, **console object object** | Creates a console.log call sending out the specified value as a string.
+
+## Customization
+
+### Add a Custom Keyboard Shortcut to Expand a Template
+
+1\. Open the **Keyboard Shortcuts** editor:
+
+* Select the **File** | **Preferences** | **Keyboard Shortcuts** menu item 
+
+![](media/rush-snippets-open-keyboard-shortcuts-menu-item.png)
+
+
+or 
+
+* Сlick **Manage** and choose **Keyboard Shortcuts**. 
+
+![](media/rush-snippets-click-manage-keyboard-shortcuts.png)
+
+2\. Find the **CodeRush.expandTemplateWithOther** command, select it, and click **Change Keybinding** (the default shortcut for this command is **Ctrl + Space**).  
+
+![](media/rush-snippets-find-coderush-expandtemplatewothother-command.png)
+
+
+3\. In the dialog, press the keyboard shortcut to bind to this command and press **Enter**. 
+   
+![](media/rush-snippets-press-desired-key-combination.png)
+
+4\. Open the Visual Studio Code settings. To do this, go to the **File** | **Preferences** | **Settings** menu item or click  **Manage** and choose the **Settings** item.
+
+5\. Open the **Extensions -> Rush Snippets** page and set the "**Trigger template expansion with**" option to "**Other key**" (to expand snippets with the custom shortcut bound to the **CodeRush.expandTemplateWithOther** command). 
+
+![](media/rush-snippets-trigger-template-expansion-with-option.png)
 
 
 
