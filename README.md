@@ -285,7 +285,7 @@ The following tables list all available snippets.
 |**c** | **react component constructor** |Creates a React component constructor declaration. |
 |**cwm** | **react componentWillMount** |Creates a componentWillMount method declaration. |
 |**cdm** | **react componentDidMount** |Creates a componentDidMount method declaration. |
-|**cwum** | **react componentWillUnmount** |Creates a componentWillUnmount method declaration. |
+|**cwu**, **cwum** | **react componentWillUnmount** |Creates a componentWillUnmount method declaration. |
 |**scu** | **react shouldComponentUpdate** |Creates a shouldComponentUpdate method declaration. |
 |**bmc** | **react bind method call** |Creates a bind method call. |
 |**ss** | **react setState** |Creates a setState method call. |
