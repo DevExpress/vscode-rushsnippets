@@ -105,11 +105,11 @@ To get up to speed quickly, know this:
 * Remember the "**v** for **v**ariable" rule includes **parameters**, **field variables**, and **locals**. You can use the same shortcuts in all of these places where you need a variable.
 * To **return** from a function, use "**r**" on an empty line, and optionally follow it with:
     * The first letter of the value you want to return (**f** for **f**alse, **t** for **t**rue, **d** for \<**d**iv\>, or **n** for **n**ull).
-    * The number 0, 1, or -1 to return that number.
-    * Any TypeScript string delimiter (", ', or `) to return a string.
-* For imports, start with "i". For exports, start with "x".
-* For HTML in TypeScript, start with a ".", then follow it with the first letter of what you want to create (like .d for <div>, or .i for <img>).
-* A trailing comma means "I want a shorter version" of this snippet. 
+    * The number **0**, **1**, or **-1** to return that number.
+    * Any TypeScript string delimiter (**"**, **'**, or **`**) to return a string.
+* For **i**mports, start with "**i**". For e**x**ports, start with "**x**".
+* For HTML in TypeScript, start with a "**.**", then follow it with the first letter of what you want to create (like **.d** for \<**d**iv\>, or **.i** for \<**i**mg\>).
+* A **trailing comma** means "I want a shorter version" of this snippet. 
 
 #### More on functions:
 
@@ -118,15 +118,18 @@ To get up to speed quickly, know this:
 
 #### Snippets for Specific Frameworks
 
-* Snippets for classes in the **React** framework all start with the letter "r".
+* Snippets for classes in the **React** framework all start with the letter "**r**".
     * Once the caret is inside a React class, snippets for functions you may need in that class are short abbreviations for the method. Some examples:
-        * c for constructor.
-        * cwm for componentWillMount
-        * cdm for componentDidMount
-        * cwu for componentWillUnmount
-        * scu for shouldComponentUpdate  
+        * **c** for **c**onstructor.
+        * **cwm** for **c**omponent**W**ill**M**ount
+        * **cdm** for **c**omponent**D**id**M**ount
+        * **cwu** for **c**omponent**W**ill**U**nmount
+        * **scu** for **s**hould**C**omponent**U**pdate  
+* Snippets for classes in the **Redux** framework all start with the letter "**x**" (so "**xcm**" to create a new Redux component).
 
-Important: Rush Snippets **only expand where contextually appropriate**, so make sure the caret **is in the right place** before entering the shortcut sequence.
+#### Important!
+
+Rush Snippets **only expand where contextually appropriate**, so make sure the caret **is in the right place** before entering the shortcut sequence. This also means that React snippets will only be available inside a React projects.
 
 ## Code Snippets
 
@@ -136,7 +139,7 @@ The following tables list all available snippets.
 
 #### Type Creation
 
-| Snippet | Long Name  | Description  | 
+| Snippet | Searchable Name  | Description  | 
 |---|---|---|
 | **c** | **class with constructor**  | Creates a class with a constructor. | 
 | **c,** | **class without constructor**  | Creates a class without a constructor. |                         | **ci**  | Creates a class that implements an interface with a constructor. | 
@@ -207,7 +210,7 @@ The following tables list all available snippets.
 
 #### Import/Export 
 
-| Snippet  | Long Name | Description  | 
+| Snippet  | Searchable Name | Description  | 
 |---|---|---|
 | **im**| **import all module**  | Imports a named module. | 
 | **ia**| **import all module**  | Imports everything from the specified module as an alias. | 
@@ -228,7 +231,7 @@ The following tables list all available snippets.
 
 #### Conditionals & Control Statements
 
-| Snippet  | Long Name | Description  | 
+| Snippet  | Searchable Name | Description  | 
 |---|---|---|
 | **fof** | | Creates a for-of loop with an element iterator. | 
 | **fi**  || Creates a for-loop with an index iterator. | 
@@ -253,7 +256,7 @@ The following tables list all available snippets.
 
 #### Import
 
-| Snippet  | Long Name | Description  | 
+| Snippet  | Searchable Name | Description  | 
 |---|---|---|
 | **ira** | **react import all**  | Imports as React (all). |
 | **ir** | **react import namespace**  | Imports a React namespace. |
@@ -285,7 +288,7 @@ The following tables list all available snippets.
 
 #### Create
 
-| Snippet  | Long Name | Description  | 
+| Snippet  | Searchable Name | Description  | 
 |---|---|---|
 |**rc**, **rc,**, **rcs,** | **react component** |Creates a React component declaration. |
 |**rcs**,  **react component with state** |Creates a React component with the state declaration. |
@@ -310,7 +313,7 @@ The following tables list all available snippets.
 
 ### TypeScript Redux Templates
 
-| Snippet  | Long Name | Description  | 
+| Snippet  | Searchable Name | Description  | 
 |---|---|---|
 | **ixa** | **redux import all**| Imports as a Redux (all). |
 | **ixc** | **redux import connect**| Imports a Redux connect. |
