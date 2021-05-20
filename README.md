@@ -15,45 +15,45 @@ Rush Snippets can help you declare code more efficiently, with:
 
 ### Full Support for React, Redux, and TypeScript Coding
 
-**Rush Snippets** includes complete support for the React and Redux frameworks, making it easy to create components with state and properties. Tedious boilerplate code is now a few keystrokes away with Rush Snippets guiding you through the parts that need changing. 
+**Rush Snippets** includes complete support for the React and Redux frameworks, making it easy to create components with state and properties. Tedious boilerplate code is now only a few keystrokes away, with Rush Snippets guiding you through the parts that need changing. 
 
-**Rush Snippets** also includes everything you need to write common code structures much more efficiently, so you can declare types, classes, interfaces, functions, variables, parameters, properties, and constants all in a fraction of the time (and keystrokes) as you do now.
+**Rush Snippets** also includes everything you need to write common code structures with greater efficiency, so you can declare types, classes, interfaces, functions, variables, parameters, properties, and constants **all in a fraction of the time** (and keystrokes) as you do now.
 
-**Rush Snippets** can save you time, and also help significantly reduce the physical strain developers normally experience across their careers.
+**Rush Snippets** are so effective, not only can they save you time, they can also help significantly reduce the amount of physical strain developers normally experience across their careers.
 
 
 ### Context-aware Code Creation 
 
 **Rush Snippets** analyzes code and expands snippets based on surrounding context. For example, to declare a new **variable** that's a **number**, just type "**vn**" ("**v**" for **v**ariable, and "**n**" for **n**umber). See? Easy to recall!
 
-Internally, Rush Snippets includes **six different expansions** for this snippet, so you can use that same "vn" snippet to declare field variables, local variables, and parameters:
+Behind the scenes, Rush Snippets includes **six different expansions** for this snippet, so you can use that same "**vn**" snippet to declare **field variables**, **local variables**, and **parameters**:
 
 ![](media/rush-snippets-context-dependent-templates.gif)
 
 Rush Snippets will also add missing commas to parameter declarations if needed.
 
-What you get depends on where you are.
+What you get depends on where you are in the code.
 
 ### Two Ways to Expand a Template
 
-The **Rush Snippets** extension allows you to quickly expand a template. If you know the snippet shortcut sequence (like "vn" to create a variable that is a number, or "vs" to create a variable that's a string), just type it where you want it and press **Space**. 
+**Rush Snippets** allows you to quickly expand a template if you already know the snippet shortcut (like "vn" to create a variable that is a number, or "**vs**" to create a **v**ariable that's a **s**tring). Just type it where you want it and press **Space**.
 
 ![](media/rush-snippets-expand-a-template-with-space.gif)
 
 
-You can also use IntelliSence to find the expansion you need. In this case, just type in a bit of what you want (like "react component"), and press **Enter** on the Snippet you want to expand.
+You can also use Intellisense to find the expansion you need. Just type in a bit of what you're looking for (like "react component"), and press **Enter** on the Rush Snippet you want to expand.
 
 
 ### Automatic Namespace Declaration
 
-**Rush Snippets** adds missing dependent imports (if needed by the snippet expansion) to the top of the file, next to any existing imports. It also checks if similar module imports already exist and will only adds modules that are not yet declared in the file.
+**Rush Snippets** adds missing dependent imports (if needed by the code snippet) to the top of the file, grouped with existing imports. It also checks if similar module imports already exist, and will only adds modules that are not yet declared in the file.
 
 ![](media/rush-snippets-dependent-namespace-declaration.gif)
 
 
 ### Linked Identifiers
 
-If a snippet contains linked identifiers or repeated text that needs to stay in sync, you can quickly change that repeated text in one step. **Rush Snippets** all the links stay in sync, even if you move the caret away. 
+If a snippet contains linked identifiers (repeated text that needs to stay in sync), you can quickly change that repeated text in one step. With **Rush Snippets**, all the links stay in sync, even if you move the caret away. 
 
 ![](media/rush-snippets-linked-identifiers.gif)
 
@@ -61,33 +61,36 @@ You can break this sync by pressing **Enter** while the caret is on a link.
 
 ### Easy Access to Shorter Variations
 
-Sometimes you need **less** than the full boilerplate. If you need less code, add a **comma** to the end of the sequence. Examples:
+Sometimes you need **less** than the full boilerplate snippet. If you need less code, just add a **comma** to the end of the sequence. 
+
+Examples:
 
 * The "**c**" snippet expands to a class **with a constructor**, while "**c,**" expands to a class **without a constructor**. 
-* The "**.d**" snippet expands to a <div> tag **with a class property**, while "**.d,**" expands to a class **without a class property**. 
+* The "**.d**" snippet expands to a <div> tag **with a class property**, while "**.d,**" expands to a class **without a class property**.
+
+If you find any examples of shorter templates we are missing, please let us know (support@devexpress.com)!
 
 ### The Shortest Path from Thought to Code.
 
-You can expand **Rush Snippets** with ultra-short sequences, such as "c" (to add a class with a constructor), "rc" (to add a React component), "rpc" (to add a React Pure component), and others. Every snippet name was carefully chosen to be easy to remember, with mnemonics that don't collide with other mnemomics. The result is a powerful new way to create code with substantially less effort.
+You can expand **Rush Snippets** with ultra-short sequences, such as "c" (to add a class with a constructor), "rc" (to add a React component), "rpc" (to add a React Pure component), and others. Every snippet name was carefully chosen to be easy to remember, with mnemonics that don't collide with other mnemomics. The result is a **powerful new way** to create code with **substantially less effort**.
 
 ### Easy to Find
- Rush Snippets include longer descriptive names, such as "class with constructor", "react component", and "react pure component". So if you know what you want to create just type it in Intellisense:
+ Rush Snippets also include longer descriptive names, such as "class with constructor", "react component", and "react pure component". So if you know what you want, just type it, and then find the appropriate Rush Snippet in Intellisense:
 
 ![](media/rush-snippets-different-prefixes-for-templates.gif)
 
 
 ## Usage
 
-* Type a snippet shortcut where you need it, for example **c** to create a new class.
+* It's simple. Just type a snippet shortcut where you need it. For example, **c**, to create a new **c**lass.
 
-* Press **Space** or choose the snippet from IntelliSense and press **Enter**. **Rush Snippets** replaces the sequence with the snippet expansion. For example, creating a class with a constructor. 
+* Press **Space** or choose the Rush Snippet from Intellisense and press **Enter**. **Rush Snippets** replaces whatever you've typed with the snippet expansion. For example, creating a complete class declaration with a constructor.
 
-* Some snippets ask for changes, using a highlighted box to indicate a prompt. Just type what you need (e.g., name the newly-declared item) and press **Enter** to move on. 
+* Some snippets ask for changes, using a highlighted box to indicate a prompt. Just type what you need (e.g., name the newly-declared class) and press **Enter** to move on.
 
-The screencast below shows expansions for "c" (**class**) and "afn" (**arrow function** returning a **number**):
+The screencast below shows expansions for "**c**" (**class**) and "**afn**" (**arrow function** returning a **number**):
 
 ![](media/rush-snippets-template-usage.gif)
-
 
 You can also expand a template with the **Tab** key, or a different custom keyboard shortcut if you prefer (more on this below).
 
@@ -96,12 +99,12 @@ You can also expand a template with the **Tab** key, or a different custom keybo
 To get up to speed quickly, know this:
 
 * To declare any type, member, or variable:
-    * Enter the **first letter** of that thing you want to create (like c for class, t for type, f for function, v for variable, or p for property).
-    * If that declaration has a type (including function return types), enter the first letter of that type next (like b for boolean, n for number, s for string, or p to paste the type that is on the clipboard).
-* For constants, start with "q" and follow it with the first letter/symbol of the type or initial value you want it to have (try qs, qt, q0) Just remember, "Qonstants".
-* Remember the "v for variable" rule includes **parameters**, **field variables**, and **locals**. You can use the same shortcuts in all of these places.
-* To return from a function, use "r" on an empty line, and optionally follow it with:
-    * The first letter of the value you want to return (f for false, t for true, d for <div>, or n for null).
+    * Enter the **first letter** of that thing you want to create (like **c** for **c**lass, **t** for **t**ype, **f** for **f**unction, **v** for **v**ariable, or **p** for **p**roperty).
+    * If that declaration **has a type** (including function return types), enter the **first letter** of that **type** next (like **b** for **b**oolean, **n** for **n**umber, **s** for **s**tring, or **p** to **p**aste the type that is on the clipboard).
+* For constants, start with "**q**" and follow it with the first letter/symbol of the type or initial value you want it to have (try **qs**, **qt**, **q0**) Just remember, "**Q**onstants".
+* Remember the "**v** for **v**ariable" rule includes **parameters**, **field variables**, and **locals**. You can use the same shortcuts in all of these places where you need a variable.
+* To **return** from a function, use "**r**" on an empty line, and optionally follow it with:
+    * The first letter of the value you want to return (**f** for **f**alse, **t** for **t**rue, **d** for \<**d**iv\>, or **n** for **n**ull).
     * The number 0, 1, or -1 to return that number.
     * Any TypeScript string delimiter (", ', or `) to return a string.
 * For imports, start with "i". For exports, start with "x".
