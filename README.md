@@ -13,9 +13,18 @@ Rush Snippets can help you declare code more efficiently, with:
 
 ## Features
 
+### Full Support for React, Redux, and TypeScript Coding
+
+**Rush Snippets** includes complete support for the React and Redux frameworks, making it easy to create components with state and properties. Tedious boilerplate code is now a few keystrokes away with Rush Snippets guiding you through the parts that need changing. 
+
+**Rush Snippets** also includes everything you need to write common code structures much more efficiently, so you can declare types, classes, interfaces, functions, variables, parameters, properties, and constants all in a fraction of the time (and keystrokes) as you do now.
+
+**Rush Snippets** can save you time, and also help significantly reduce the physical strain developers normally experience across their careers.
+
+
 ### Context-aware Code Creation 
 
-**Rush Snippets** analyzes code and expands snippets based on surrounding context. For example, to declare a new **variable** that's a **number**, just type "**vn**" ("**v**" for **v**ariable, and "**n**" for **n**umber -- see, easy to recall).
+**Rush Snippets** analyzes code and expands snippets based on surrounding context. For example, to declare a new **variable** that's a **number**, just type "**vn**" ("**v**" for **v**ariable, and "**n**" for **n**umber). See? Easy to recall!
 
 Internally, Rush Snippets includes **six different expansions** for this snippet, so you can use that same "vn" snippet to declare field variables, local variables, and parameters:
 
