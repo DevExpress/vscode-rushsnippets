@@ -15,7 +15,7 @@ Rush Snippets can help you declare code more efficiently, with:
 
 ### Context-aware Code Creation 
 
-**Rush Snippets** analyzes code and expands snippets based on surrounding context. For example, to declare a new **variable** that's a **number**, just type "vn" ("v" for variable, and "n" for number -- see, easy to recall).
+**Rush Snippets** analyzes code and expands snippets based on surrounding context. For example, to declare a new **variable** that's a **number**, just type "**vn**" ("**v**" for **v**ariable, and "**n**" for **n**umber -- see, easy to recall).
 
 Internally, Rush Snippets includes **six different expansions** for this snippet, so you can use that same "vn" snippet to declare field variables, local variables, and parameters:
 
