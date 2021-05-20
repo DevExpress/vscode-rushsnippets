@@ -66,18 +66,22 @@ Sometimes you need **less** than the full boilerplate snippet. If you need less 
 Examples:
 
 * The "**c**" snippet expands to a class **with a constructor**, while "**c,**" expands to a class **without a constructor**. 
-* The "**.d**" snippet expands to a <div> tag **with a class property**, while "**.d,**" expands to a class **without a class property**.
+* The "**.d**" snippet expands to a \<div\> tag **with a class property**, while "**.d,**" expands to a \<div\> tag **without a class property**.
 
 If you find any examples of shorter templates we are missing, please let us know (support@devexpress.com)!
 
 ### The Shortest Path from Thought to Code.
 
-You can expand **Rush Snippets** with ultra-short sequences, such as "c" (to add a class with a constructor), "rc" (to add a React component), "rpc" (to add a React Pure component), and others. Every snippet name was carefully chosen to be easy to remember, with mnemonics that don't collide with other mnemomics. The result is a **powerful new way** to create code with **substantially less effort**.
+You can expand **Rush Snippets** with ultra-short sequences, such as "**c**" (to add a **c**lass with a constructor), "**rc**" (to add a **R**eact **c**omponent), "**rpc**" (to add a **R**eact **P**ure **c**omponent), and others. Every snippet name was carefully chosen to be easy to remember, with mnemonics that don't collide with other mnemomics. The result is a **powerful new way** to create code with **substantially less effort**.
 
 ### Easy to Find
- Rush Snippets also include longer descriptive names, such as "class with constructor", "react component", and "react pure component". So if you know what you want, just type it, and then find the appropriate Rush Snippet in Intellisense:
+ Rush Snippets also include searchable descriptive names, such as "class with constructor", "react component", and "react pure component". So if you know what you want, just type it, and then find the appropriate Rush Snippet in Intellisense:
 
 ![](media/rush-snippets-different-prefixes-for-templates.gif)
+
+
+### Fully Supported and in Active Development
+Rush Snippets is fully supported by [DevExpress](https://www.devexpress.com), and is in active development by the same team who creates [CodeRush for Visual Studio](https://www.devexpress.com/coderush). Expect future updates and support for more frameworks in coming releases.
 
 
 ## Usage
@@ -129,7 +133,7 @@ To get up to speed quickly, know this:
 
 #### Important!
 
-Rush Snippets **only expand where contextually appropriate**, so make sure the caret **is in the right place** before entering the shortcut sequence. This also means that React snippets will only be available inside a React projects.
+Rush Snippets **only expand where contextually appropriate**, so make sure the caret **is in the right place** before entering the shortcut sequence. So for example, this also means that React snippets will only be available inside React projects.
 
 ## Code Snippets
 
