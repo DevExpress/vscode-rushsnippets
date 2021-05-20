@@ -1,6 +1,6 @@
 # Rush Snippets 
 
-#### Code Snippet Templates for TypeScript, React and Redux projects. 
+#### Code Snippets for TypeScript, React and Redux projects. 
 
 Rush Snippets is a collection of easy-to-recall VS Code shortcuts that expand into larger blocks of boilerplate code developers create all the time. 
 
