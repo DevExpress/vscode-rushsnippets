@@ -1,5 +1,7 @@
 DEVELOPER EXPRESS INC 
-Rush Snippets SOFTWARE PRODUCT 
+RushNav SOFTWARE PRODUCT 
+RushSnippets SOFTWARE PRODUCT 
+RushCore SOFTWARE PRODUCT 
 Copyright (C) 2003-2021 Developer Express Inc.
 
 Last revised May, 2021
