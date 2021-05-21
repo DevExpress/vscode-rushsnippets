@@ -144,7 +144,7 @@ The following tables list all available snippets.
 #### Type Creation
 
 | Snippet | Searchable Name  | Description  | 
-|---|---|---|
+|:--|:--|:--|
 | **c** | **class with constructor**  | Creates a class with a constructor. | 
 | **c,** | **class without constructor**  | Creates a class without a constructor. |                         | **ci**  | Creates a class that implements an interface with a constructor. | 
 | **ci** | **class with implements**  | Creates a class that implements an interface with a constructor. |
@@ -164,7 +164,7 @@ The following tables list all available snippets.
 
 Type reference snippets:
 
-| Member Kind ▼ / Type ►  | String   | Number| Boolean | Object| Any | Clipboard| Void |
+|   | String   | Number| Boolean | Object| Any | Clipboard| Void |
 |---|---|---|---|---|---|---|---|
 | **Type Reference** | ts | tn | tb | to | ty| tp|tv |
 | **Type Array Reference**|  tas | tan | tab | tao | tay| tap| -  |
