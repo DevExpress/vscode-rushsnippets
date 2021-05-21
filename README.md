@@ -209,12 +209,11 @@ Snippets for declaring variables, fields, parameters, and constants:
 
 ##### Declaring New Maps
 
-| Key ▼ /  Element Type ► | String   | Number| Boolean | Any| Clipboard Paste |
+| Map Key ▼ /  Element Type ► | String   | Number| Boolean | Any| Clipboard Paste |
 |---|---|---|---|---|---|
 | string  | nmss | nmsn | nmsb | nmsy | nmsp |
 | number  | nmns | nmnn | nmnb | nmny | nmnp |
 | Clipboard Paste| nmps | nmpn | nmpb | nmpy | nmpp |
-
 
 
 #### Import/Export 
