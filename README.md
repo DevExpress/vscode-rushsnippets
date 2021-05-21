@@ -34,9 +34,9 @@ Rush Snippets will also add missing commas to parameter declarations if needed.
 
 What you get depends on where you are in the code.
 
-### Two Ways to Expand a Template
+### Two Ways to Expand a Snippet
 
-**Rush Snippets** allows you to quickly expand a template if you already know the snippet shortcut (like "vn" to create a variable that is a number, or "**vs**" to create a **v**ariable that's a **s**tring). Just type it where you want it and press **Space**.
+**Rush Snippets** allows you to quickly expand a snippet if you already know the shortcut (like "vn" to create a variable that is a number, or "**vs**" to create a **v**ariable that's a **s**tring). Just type it where you want it and press **Space**.
 
 ![](media/rush-snippets-expand-a-template-with-space.gif)
 
@@ -68,7 +68,7 @@ Examples:
 * The "**c**" snippet expands to a class **with a constructor**, while "**c,**" expands to a class **without a constructor**. 
 * The "**.d**" snippet expands to a \<div\> tag **with a class property**, while "**.d,**" expands to a \<div\> tag **without a class property**.
 
-If you find any examples of shorter templates we are missing, please let us know (support@devexpress.com)!
+If you find any examples of shorter snippets we are missing, please let us know (support@devexpress.com)!
 
 ### The Shortest Path from Thought to Code.
 
@@ -96,7 +96,7 @@ The screencast below shows expansions for "**c**" (**class**) and "**afn**" (**a
 
 ![](media/rush-snippets-template-usage.gif)
 
-You can also expand a template with the **Tab** key, or a different custom keyboard shortcut if you prefer (more on this below).
+You can also expand a snippet with the **Tab** key, or a different custom keyboard shortcut if you prefer (more on this below).
 
 ## Core Mnemonics - Quick Start
 
@@ -162,7 +162,9 @@ The following tables list all available snippets.
 
 #### Type Reference
 
-| Member Kind  | String   | Number| Boolean | Object| Any | Clipboard| Void |
+Type reference snippets:
+
+| Member Kind ▼ / Type ►  | String   | Number| Boolean | Object| Any | Clipboard| Void |
 |---|---|---|---|---|---|---|---|
 | **Type Reference** | ts | tn | tb | to | ty| tp|tv |
 | **Type Array Reference**|  tas | tan | tab | tao | tay| tap| -  |
@@ -170,14 +172,11 @@ The following tables list all available snippets.
 
 #### Members Declaration
 
-##### Properties and Functions
+##### Functions
 
-| Member Kind  |String   | Number| Boolean | Object| Any| Clipboard | Void |
+Function snippets:
+| Member Kind ▼ / Return Type ► |String   | Number| Boolean | Object| Any| Clipboard | Void |
 |---|---|---|---|---|---|---|---|
-| **Property**  |  ps | pn | pb | po | py| pp| - |
-| **Property - Array of** | pas | pan | pab | pao | pay| pap| -  |
-| **Read-only Property** | rs | rn | rb | ro | ry| rp| - |
-| **Read-only Property - Array of** | ras | ran | rab | rao | ray| rap| - |
 | **Function** | fs | fn | fb | fo | fy| fp|f |
 | **Function - Array of** | fas | fan | fab | fao | fay| fap|  |
 | **Arrow Function** | afs | afn | afb | afo | afy| afp| af |
@@ -188,18 +187,31 @@ The following tables list all available snippets.
 | **Async Arrow Function - Array of** | yafas | yafan | yafab | yafao | yafay| yafap| - |
 
 
+##### Properties
+
+Property snippets:
+| Member Kind ▼ / Type ► |String   | Number| Boolean | Object| Any| Clipboard | Void |
+|---|---|---|---|---|---|---|---|
+| **Property**  |  ps | pn | pb | po | py| pp| - |
+| **Property - Array of** | pas | pan | pab | pao | pay| pap| -  |
+| **Read-only Property** | rs | rn | rb | ro | ry| rp| - |
+| **Read-only Property - Array of** | ras | ran | rab | rao | ray| rap| - |
+
+
+ n   
 
 ##### Constants, Variables, Fields, and Parameters
 
+Snippets for declaring variables, fields, parameters, and constants:
 
-| Member Kind  | String   | Number| Boolean | Object| Any| Paste |
+| Member Kind ▼ / Type ► | String   | Number| Boolean | Object| Any| Paste |
 |---|---|---|---|---|---|---|
 | **Constant**  | qs | qn | qb | qo | qy| qp|
-| **Constant of Array of**  | qas | qan | qab | qao | qay| qap|
+| **Constant - Array of**  | qas | qan | qab | qao | qay| qap|
 | **Variable/Field/Parameter**  | vs | vn | vb | vo | vy| vp|
-| **Variable/Field/Parameter of Array of**  | vas | van | vab | vao | vay| vap|
-| **Variable/Field/Parameter of Array of initialized to []**  | nas | nan | nab | nao |nay | nap|
-| **Variable/Field/Parameter with a new**  | ns | nn | nb | -  |na | np|
+| **Variable/Field/Parameter - Array of**  | vas | van | vab | vao | vay| vap|
+| **Variable/Field/Parameter - Array of initialized to []**  | nas | nan | nab | nao |nay | nap|
+| **Variable/Field/Parameter with Initialization**  | ns | nn | nb | -  |na | np|
 
 
 ##### Declaring New Maps
@@ -256,9 +268,9 @@ The following tables list all available snippets.
 | **tne**| **throw error**  | Creates a statement that throws an error. |
 
 
-### TypeScript React Templates
+### TypeScript React Snippets
 
-#### Import
+#### React Imports
 
 | Snippet  | Searchable Name | Description  | 
 |---|---|---|
@@ -290,7 +302,7 @@ The following tables list all available snippets.
 |**irse,**| **react import namespace and usestate useeffect** |Imports  React, { useState, useEffect }. |
 
 
-#### Create
+#### React Components
 
 | Snippet  | Searchable Name | Description  | 
 |---|---|---|
@@ -313,9 +325,7 @@ The following tables list all available snippets.
 
 
 
-
-
-### TypeScript Redux Templates
+### Redux
 
 | Snippet  | Searchable Name | Description  | 
 |---|---|---|
@@ -332,7 +342,7 @@ The following tables list all available snippets.
 | **xfc** | **redux function component**| Creates a Redux function component. |
 
 
-### TypeScript Action Templates
+### TypeScript Action Snippets
 
 | Snippet  | Long Name | Description  | 
 |---|---|---|
@@ -340,7 +350,7 @@ The following tables list all available snippets.
 | **xbac** | **redux actions bind**| Returns the bindActionCreators. |
 
 
-### TypeScript Reducer Templates
+### TypeScript Reducer Snippets
 
 | Snippet  | Long Name | Description  | 
 |---|---|---|
@@ -348,7 +358,7 @@ The following tables list all available snippets.
 | **xcr** | **redux combine reducers**| Reduxes a combineReducers declaration. |
 
 
-### TypeScript Middleware Templates
+### TypeScript Middleware Snippets
 
 | Snippet  | Long Name | Description  | 
 |---|---|---|
@@ -358,7 +368,7 @@ The following tables list all available snippets.
 | **xcsm** | **redux create store with middleware** | Creates a Redux store with middleware.
 
 
-### TypeScript Console Templates
+### TypeScript Console Snippets
 
 | Snippet  | Long Name | Description  | 
 |---|---|---|
@@ -374,7 +384,7 @@ The following tables list all available snippets.
 
 ## Customization
 
-### Add a Custom Keyboard Shortcut to Expand a Template
+### Add a Custom Keyboard Shortcut to Expand a Snippets
 
 1\. Open the **Keyboard Shortcuts** editor:
 
