@@ -392,7 +392,7 @@ or
 
 ![](media/rush-snippets-click-manage-keyboard-shortcuts.png)
 
-2\. Find the **CodeRush.expandTemplateWithOther** command, select it, and click **Change Keybinding** (the default shortcut for this command is **Ctrl + Space**).  
+2\. Find the **CodeRush.expandSnippetWithOther** command, select it, and click **Change Keybinding** (the default shortcut for this command is **Ctrl + Space**).  
 
 ![](media/rush-snippets-find-coderush-expandtemplatewothother-command.png)
 
@@ -403,6 +403,11 @@ or
 
 4\. Open the Visual Studio Code settings. To do this, go to the **File** | **Preferences** | **Settings** menu item or click  **Manage** and choose the **Settings** item.
 
-5\. Open the **Extensions -> Rush Snippets** page and set the "**Trigger template expansion with**" option to "**Other key**" (to expand snippets with the custom shortcut bound to the **CodeRush.expandTemplateWithOther** command). 
+5\. Open the **Extensions -> Rush Snippets** page and set the "**Trigger Rush Snippet expansion with**" option to "**Other key**" (to expand snippets with the custom shortcut bound to the **CodeRush.expandSnippetWithOther** command). 
 
 ![](media/rush-snippets-trigger-template-expansion-with-option.png)
+
+
+
+
+
