@@ -46,7 +46,7 @@ You can also use Intellisense to find the expansion you need. Just type in a bit
 
 ### Automatic Namespace Declaration
 
-**Rush Snippets** adds missing dependent imports (if needed by the code snippet) to the top of the file, grouped with existing imports. It also checks if similar module imports already exist, and will only adds modules that are not yet declared in the file.
+**Rush Snippets** adds missing dependent imports (if needed by the code snippet) to the top of the file, grouped with existing imports. It also checks if similar module imports already exist, and will only add modules that are not yet declared in the file.
 
 ![](media/rush-snippets-dependent-namespace-declaration.gif)
 
@@ -72,10 +72,10 @@ If you find any examples of shorter snippets we are missing, please let us know 
 
 ### The Shortest Path from Thought to Code.
 
-You can expand **Rush Snippets** with ultra-short sequences, such as "**c**" (to add a **c**lass with a constructor), "**rc**" (to add a **R**eact **c**omponent), "**rpc**" (to add a **R**eact **P**ure **c**omponent), and others. Every snippet name was carefully chosen to be easy to remember, with mnemonics that don't collide with other mnemomics. The result is a **powerful new way** to create code with **substantially less effort**.
+You can expand **Rush Snippets** with ultra-short sequences, such as "**c**" (to add a **c**lass with a constructor), "**rc**" (to add a **R**eact **c**omponent), "**rpc**" (to add a **R**eact **P**ure **c**omponent), and others. Every snippet name was carefully chosen to be easy to remember, with mnemonics that don't collide with other mnemonics. The result is a **powerful new way** to create code with **substantially less effort**.
 
 ### Easy to Find
- Rush Snippets also include searchable descriptive names, such as "class with constructor", "react component", and "react pure component". So if you know what you want, just type it, and then find the appropriate Rush Snippet in Intellisense:
+ Rush Snippets also includes searchable descriptive names, such as "class with constructor", "react component", and "react pure component". So if you know what you want, just type it, and then find the appropriate Rush Snippet in Intellisense:
 
 ![](media/rush-snippets-different-prefixes-for-templates.gif)
 
@@ -146,14 +146,13 @@ The following tables list all available snippets.
 | Snippet | Searchable Name  | Description  | 
 |:--|:--|:--|
 | **c** | **class with constructor**  | Creates a class with a constructor. | 
-| **c,** | **class without constructor**  | Creates a class without a constructor. |                         | **ci**  | Creates a class that implements an interface with a constructor. | 
+| **c,** | **class without constructor**  | Creates a class without a constructor. |                        
 | **ci** | **class with implements**  | Creates a class that implements an interface with a constructor. |
 | **ci,** |  **class with implements without constructor** | Creates a class that implements an interface without a constructor. |
 | **cx** | **class with extends**  | Creates a class with a constructor that extends another class.   |
 | **cx,** | **class with extends without constructor**  | Creates a class without a constructor that extends another class.   |
 | **i** | **interface**  | Creates an interface. |
 | **t** | **type literal**  | Creates a type literal. |
-| **t,** | **type simple literal**  | Creates a type simple literal. |
 | **tu** | **type union**  | Creates a union type. Press Enter to add more type unions. Press Escape when done. |
 | **e**  | | Creates an enum. |
 | **cc**  | | Creates a constructor. |
@@ -233,7 +232,7 @@ Snippets for declaring variables, fields, parameters, and constants:
 | **xc**| **export class without constructor**  | Exports a class with a constructor. |
 | **xc,**| **export class**  | Exports a class without a constructor. |
 | **xt**| **export type literal**  | Exports a class without a constructor. |
-| **xt,**| **export type simple literal**  | Exports a class without a constructor. |
+| **xtu**| **export type simple literal**  | Exports a class without a constructor. |
 
 
 
@@ -299,7 +298,7 @@ Snippets for declaring variables, fields, parameters, and constants:
 | Snippet  | Searchable Name | Description  | 
 |---|---|---|
 |**rc**, **rc,**, **rcs,** | **react component** |Creates a React component declaration. |
-|**rcs**,  **react component with state** |Creates a React component with the state declaration. |
+|**rcs**, | **react component with state** |Creates a React component with the state declaration. |
 |**rpc** | **react pure component** |Creates a React PureComponent declaration. |
 |**rpcs** | **react pure component with state** |Creates a React PureComponent with the state declaration. |
 |**rfc** | **react function component** |Creates a React function Component. |
@@ -391,7 +390,7 @@ or
 
 ![](media/rush-snippets-click-manage-keyboard-shortcuts.png)
 
-2\. Find the **CodeRush.expandTemplateWithOther** command, select it, and click **Change Keybinding** (the default shortcut for this command is **Ctrl + Space**).  
+2\. Find the **CodeRush.expandSnippetWithOther** command, select it, and click **Change Keybinding** (the default shortcut for this command is **Ctrl + Space**).  
 
 ![](media/rush-snippets-find-coderush-expandtemplatewothother-command.png)
 
@@ -402,6 +401,11 @@ or
 
 4\. Open the Visual Studio Code settings. To do this, go to the **File** | **Preferences** | **Settings** menu item or click  **Manage** and choose the **Settings** item.
 
-5\. Open the **Extensions -> Rush Snippets** page and set the "**Trigger template expansion with**" option to "**Other key**" (to expand snippets with the custom shortcut bound to the **CodeRush.expandTemplateWithOther** command). 
+5\. Open the **Extensions -> Rush Snippets** page and set the "**Trigger Rush Snippet expansion with**" option to "**Other key**" (to expand snippets with the custom shortcut bound to the **CodeRush.expandSnippetWithOther** command). 
 
 ![](media/rush-snippets-trigger-template-expansion-with-option.png)
+
+
+
+
+
