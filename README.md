@@ -162,8 +162,6 @@ The following tables list all available snippets.
 
 #### Type Reference
 
-Type reference snippets:
-
 |   | String   | Number| Boolean | Object| Any | Clipboard| Void |
 |---|---|---|---|---|---|---|---|
 | **Type Reference** | ts | tn | tb | to | ty| tp|tv |
@@ -174,8 +172,7 @@ Type reference snippets:
 
 ##### Functions
 
-Function snippets:
-| Member Kind ▼ / Return Type ► |String   | Number| Boolean | Object| Any| Clipboard | Void |
+|  |String   | Number| Boolean | Object| Any| Clipboard | Void |
 |---|---|---|---|---|---|---|---|
 | **Function** | fs | fn | fb | fo | fy| fp|f |
 | **Function - Array of** | fas | fan | fab | fao | fay| fap|  |
@@ -189,22 +186,18 @@ Function snippets:
 
 ##### Properties
 
-Property snippets:
-| Member Kind ▼ / Type ► |String   | Number| Boolean | Object| Any| Clipboard | Void |
+|  |String   | Number| Boolean | Object| Any| Clipboard | Void |
 |---|---|---|---|---|---|---|---|
 | **Property**  |  ps | pn | pb | po | py| pp| - |
 | **Property - Array of** | pas | pan | pab | pao | pay| pap| -  |
 | **Read-only Property** | rs | rn | rb | ro | ry| rp| - |
 | **Read-only Property - Array of** | ras | ran | rab | rao | ray| rap| - |
 
-
- n   
-
 ##### Constants, Variables, Fields, and Parameters
 
 Snippets for declaring variables, fields, parameters, and constants:
 
-| Member Kind ▼ / Type ► | String   | Number| Boolean | Object| Any| Paste |
+|  | String   | Number| Boolean | Object| Any| Paste |
 |---|---|---|---|---|---|---|
 | **Constant**  | qs | qn | qb | qo | qy| qp|
 | **Constant - Array of**  | qas | qan | qab | qao | qay| qap|
