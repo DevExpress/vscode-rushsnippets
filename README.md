@@ -1,8 +1,11 @@
-# Rush Snippets 
+# Rush Snippets
 
 #### Code Snippets for TypeScript, React and Redux projects. 
 
 Rush Snippets is a collection of easy-to-recall VS Code shortcuts that expand into larger blocks of boilerplate code developers create all the time. 
+
+
+![](media/new/rush-snippets-overview.gif)
 
 Rush Snippets can help you declare code more efficiently, with: 
 
@@ -11,11 +14,15 @@ Rush Snippets can help you declare code more efficiently, with:
 * Less physical strain, and 
 * An overall lower cognitive load.
 
+[![](media/new/rush-snippets-presentation.png)](https://youtu.be/A7bAdll37qA)
+
+
 ## Features
+
 
 ### Full Support for React, Redux, and TypeScript Coding
 
-**Rush Snippets** includes complete support for the React and Redux frameworks, making it easy to create components with state and properties. Tedious boilerplate code is now only a few keystrokes away, with Rush Snippets guiding you through the parts that need changing. 
+**Rush Snippets** includes complete support for the React and Redux frameworks, making it easy to create components with state and properties. Often-needed boilerplate code is now only a few keystrokes away, with Rush Snippets guiding you through the parts that need changing. 
 
 **Rush Snippets** also includes everything you need to write common code structures with greater efficiency, so you can declare types, classes, interfaces, functions, variables, parameters, properties, and constants **all in a fraction of the time** (and keystrokes) as you do now.
 
@@ -28,7 +35,7 @@ Rush Snippets can help you declare code more efficiently, with:
 
 Behind the scenes, Rush Snippets includes **six different expansions** for this snippet, so you can use that same "**vn**" snippet to declare **field variables**, **local variables**, and **parameters**:
 
-![](media/rush-snippets-context-dependent-templates.gif)
+![](media/new/rush-snippets-context-dependent-templates.gif)
 
 Rush Snippets will also add missing commas to parameter declarations if needed.
 
@@ -36,26 +43,29 @@ What you get depends on where you are in the code.
 
 ### Two Ways to Expand a Snippet
 
-**Rush Snippets** allows you to quickly expand a snippet if you already know the shortcut (like "vn" to create a variable that is a number, or "**vs**" to create a **v**ariable that's a **s**tring). Just type it where you want it and press **Space**.
-
-![](media/rush-snippets-expand-a-template-with-space.gif)
-
+**Rush Snippets** allows you to quickly expand a snippet if you already know the shortcut (like "**vn**" to create a **v**ariable that is a number, or "**vs**" to create a **v**ariable that's a **s**tring). Just type it where you want it and press **Space**.
 
 You can also use Intellisense to find the expansion you need. Just type in a bit of what you're looking for (like "react component"), and press **Enter** on the Rush Snippet you want to expand.
+
+
+![](media/new/rush-snippets-expand-a-template-with-space.gif)
+
 
 
 ### Automatic Namespace Declaration
 
 **Rush Snippets** adds missing dependent imports (if needed by the code snippet) to the top of the file, grouped with existing imports. It also checks if similar module imports already exist, and will only add modules that are not yet declared in the file.
 
-![](media/rush-snippets-dependent-namespace-declaration.gif)
+
+![](media/new/rush-snippets-dependent-namespace-declaration.gif)
 
 
 ### Linked Identifiers
 
 If a snippet contains linked identifiers (repeated text that needs to stay in sync), you can quickly change that repeated text in one step. With **Rush Snippets**, all the links stay in sync, even if you move the caret away. 
 
-![](media/rush-snippets-linked-identifiers.gif)
+
+![](media/new/rush-snippets-linked-identifiers.gif)
 
 You can break this sync by pressing **Enter** while the caret is on a link.
 
@@ -70,17 +80,20 @@ Examples:
 
 If you find any examples of shorter snippets we are missing, please let us know (support@devexpress.com)!
 
-### The Shortest Path from Thought to Code.
+### The Shortest Path from Thought to Code
 
 You can expand **Rush Snippets** with ultra-short sequences, such as "**c**" (to add a **c**lass with a constructor), "**rc**" (to add a **R**eact **c**omponent), "**rpc**" (to add a **R**eact **P**ure **c**omponent), and others. Every snippet name was carefully chosen to be easy to remember, with mnemonics that don't collide with other mnemonics. The result is a **powerful new way** to create code with **substantially less effort**.
 
 ### Easy to Find
- Rush Snippets also includes searchable descriptive names, such as "class with constructor", "react component", and "react pure component". So if you know what you want, just type it, and then find the appropriate Rush Snippet in Intellisense:
 
-![](media/rush-snippets-different-prefixes-for-templates.gif)
+Rush Snippets also includes searchable descriptive names, such as "class with constructor", "readonly property bool", "react component", and "react pure component". So if you know what you want, just type it, and then find the appropriate Rush Snippet in Intellisense:
+
+
+![](media/new/rush-snippets-different-prefixes-for-templates.gif)
 
 
 ### Fully Supported and in Active Development
+
 Rush Snippets is fully supported by [DevExpress](https://www.devexpress.com), and is in active development by the same team who creates [CodeRush for Visual Studio](https://www.devexpress.com/coderush). Expect future updates and support for more frameworks in coming releases.
 
 
@@ -92,9 +105,9 @@ Rush Snippets is fully supported by [DevExpress](https://www.devexpress.com), an
 
 * Some snippets ask for changes, using a highlighted box to indicate a prompt. Just type what you need (e.g., name the newly-declared class) and press **Enter** to move on.
 
-The screencast below shows expansions for "**c**" (**class**) and "**afn**" (**arrow function** returning a **number**):
+The screencast below shows expansions for "**f**" (void function), **vb** (a variable of boolean), **vs** (a variable of string), **tn** (a type reference of number), and **r0** (return 0) templates:
 
-![](media/rush-snippets-template-usage.gif)
+![](media/new/rush-snippets-template-usage.gif)
 
 You can also expand a snippet with the **Tab** key, or a different custom keyboard shortcut if you prefer (more on this below).
 
@@ -331,7 +344,14 @@ Snippets for declaring variables, fields, parameters, and constants:
 | **xmdb** | **redux map dispatch with bind**| Creates a mapDispatchToProps function with bindActionCreators. |
 | **xcon** | **redux connect**| Creates a React Redux connect. |
 | **xfc** | **redux function component**| Creates a Redux function component. |
-
+| **xgsm** | **redux configure store with middleware**| Creates a Redux store with middleware configuration. |
+| **qus** | **redux constant useSelector**| Creates a constant initialized with a Redux selector. |
+| **vus** | **redux variable useSelector**| Creates a variable initialized with a Redux selector. |
+| **qud** | **redux constant useDispatch**| Creates a constant initialized with a Redux dispatch. |
+| **vud** | **redux variable useDispatch**| Creates a variable initialized with a Redux dispatch. |
+| **qtus** | **redux constant pre-typed useSelector**| Creates a constant initialized with a Redux pre-typed selector. |
+| **qtud** | **redux constant pre-typed useDispatch**| Creates a constant initialized with a Redux pre-typed dispatch. |
+| **xcsl** | **redux create slice**| Creates a Redux slice. |
 
 ### TypeScript Action Snippets
 
@@ -381,31 +401,32 @@ Snippets for declaring variables, fields, parameters, and constants:
 
 * Select the **File** | **Preferences** | **Keyboard Shortcuts** menu item 
 
-![](media/rush-snippets-open-keyboard-shortcuts-menu-item.png)
+
+
+![](media/new/rush-snippets-open-keyboard-shortcuts-menu-item.png)
 
 
 or 
 
 * Сlick **Manage** and choose **Keyboard Shortcuts**. 
 
-![](media/rush-snippets-click-manage-keyboard-shortcuts.png)
+
+![](media/new/rush-snippets-click-manage-keyboard-shortcuts.png)
 
 2\. Find the **CodeRush.expandSnippetWithOther** command, select it, and click **Change Keybinding** (the default shortcut for this command is **Ctrl + Space**).  
 
-![](media/rush-snippets-find-coderush-expandtemplatewothother-command.png)
+
+![](media/new/rush-snippets-find-coderush-expandtemplatewothother-command.png)
 
 
 3\. In the dialog, press the keyboard shortcut to bind to this command and press **Enter**. 
-   
-![](media/rush-snippets-press-desired-key-combination.png)
+
+
+![](media/new/rush-snippets-press-desired-key-combination.png)
 
 4\. Open the Visual Studio Code settings. To do this, go to the **File** | **Preferences** | **Settings** menu item or click  **Manage** and choose the **Settings** item.
 
 5\. Open the **Extensions -> Rush Snippets** page and set the "**Trigger Rush Snippet expansion with**" option to "**Other key**" (to expand snippets with the custom shortcut bound to the **CodeRush.expandSnippetWithOther** command). 
 
-![](media/rush-snippets-trigger-template-expansion-with-option.png)
 
-
-
-
-
+![](media/new/rush-snippets-trigger-template-expansion-with-option.png)
