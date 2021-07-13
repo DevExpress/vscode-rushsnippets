@@ -1,11 +1,12 @@
 # Rush Snippets
 
-#### Code Snippets for TypeScript, React and Redux projects. 
+#### Code Snippets for TypeScript, JavaScript, React and Redux projects. 
 
 Rush Snippets is a collection of easy-to-recall VS Code shortcuts that expand into larger blocks of boilerplate code developers create all the time. 
 
 
 ![](media/new/rush-snippets-overview.gif)
+![](media/rush-snippets-overview.gif)
 
 Rush Snippets can help you declare code more efficiently, with: 
 
@@ -20,7 +21,7 @@ Rush Snippets can help you declare code more efficiently, with:
 ## Features
 
 
-### Full Support for React, Redux, and TypeScript Coding
+### Full Support for React, Redux, TypeScript, and JavaScript Coding
 
 **Rush Snippets** includes complete support for the React and Redux frameworks, making it easy to create components with state and properties. Often-needed boilerplate code is now only a few keystrokes away, with Rush Snippets guiding you through the parts that need changing. 
 
@@ -46,7 +47,6 @@ What you get depends on where you are in the code.
 **Rush Snippets** allows you to quickly expand a snippet if you already know the shortcut (like "**vn**" to create a **v**ariable that is a number, or "**vs**" to create a **v**ariable that's a **s**tring). Just type it where you want it and press **Space**.
 
 You can also use Intellisense to find the expansion you need. Just type in a bit of what you're looking for (like "react component"), and press **Enter** on the Rush Snippet you want to expand.
-
 
 ![](media/new/rush-snippets-expand-a-template-with-space.gif)
 
@@ -87,7 +87,7 @@ You can expand **Rush Snippets** with ultra-short sequences, such as "**c**" (to
 ### Easy to Find
 
 Rush Snippets also includes searchable descriptive names, such as "class with constructor", "readonly property bool", "react component", and "react pure component". So if you know what you want, just type it, and then find the appropriate Rush Snippet in Intellisense:
-
+ 
 
 ![](media/new/rush-snippets-different-prefixes-for-templates.gif)
 
@@ -125,7 +125,7 @@ To get up to speed quickly, know this:
     * The number **0**, **1**, or **-1** to return that number.
     * Any TypeScript string delimiter (**"**, **'**, or **`**) to return a string.
 * For **i**mports, start with "**i**". For e**x**ports, start with "**x**".
-* For HTML in TypeScript, start with a "**.**", then follow it with the first letter of what you want to create (like **.d** for \<**d**iv\>, or **.i** for \<**i**mg\>).
+* For HTML in TypeScript and JavaScript, start with a "**.**", then follow it with the first letter of what you want to create (like **.d** for \<**d**iv\>, or **.i** for \<**i**mg\>).
 * A **trailing comma** means "I want a shorter version" of this snippet. 
 
 #### More on functions:
@@ -152,23 +152,23 @@ Rush Snippets **only expand where contextually appropriate**, so make sure the c
 
 The following tables list all available snippets.
 
-### TypeScript Snippets
+### TypeScript and JavaScript Snippets
 
 #### Type Creation
 
-| Snippet | Searchable Name  | Description  | 
-|:--|:--|:--|
-| **c** | **class with constructor**  | Creates a class with a constructor. | 
-| **c,** | **class without constructor**  | Creates a class without a constructor. |                        
-| **ci** | **class with implements**  | Creates a class that implements an interface with a constructor. |
-| **ci,** |  **class with implements without constructor** | Creates a class that implements an interface without a constructor. |
-| **cx** | **class with extends**  | Creates a class with a constructor that extends another class.   |
-| **cx,** | **class with extends without constructor**  | Creates a class without a constructor that extends another class.   |
-| **i** | **interface**  | Creates an interface. |
-| **t** | **type literal**  | Creates a type literal. |
-| **tu** | **type union**  | Creates a union type. Press Enter to add more type unions. Press Escape when done. |
-| **e**  | | Creates an enum. |
-| **cc**  | | Creates a constructor. |
+| TypeScript Snippet | JavaScript Snippet |Searchable Name  | Description  | 
+|:--|:--|:--|:--|
+| **c** | **c** | **class with constructor**  | Creates a class with a constructor. | 
+| **c,** |  **c,** | **class without constructor**  | Creates a class without a constructor. |                        
+| **ci** | | **class with implements**  | Creates a class that implements an interface with a constructor. |
+| **ci,** | | **class with implements without constructor** | Creates a class that implements an interface without a constructor. |
+| **cx** | **cx** | **class with extends**  | Creates a class with a constructor that extends another class.   |
+| **cx,** | **cx,** | **class with extends without constructor**  | Creates a class without a constructor that extends another class.   |
+| **i** | |**interface**  | Creates an interface. |
+| **t** | | **type literal**  | Creates a type literal. |
+| **tu** | | **type union**  | Creates a union type. Press Enter to add more type unions. Press Escape when done. |
+| **e**  | | | Creates an enum. |
+| **cc**  | **cc**| **constructor**  | Creates a constructor. |
 
 
 
@@ -184,7 +184,7 @@ The following tables list all available snippets.
 
 ##### Functions
 
-|  |String   | Number| Boolean | Object| Any| Clipboard | Void |
+|  |String   | Number| Boolean | Object| Any| Clipboard | Void for TS and JS |
 |---|---|---|---|---|---|---|---|
 | **Function** | fs | fn | fb | fo | fy| fp|f |
 | **Function - Array of** | fas | fan | fab | fao | fay| fap|  |
@@ -196,7 +196,7 @@ The following tables list all available snippets.
 | **Async Arrow Function - Array of** | yafas | yafan | yafab | yafao | yafay| yafap| - |
 
 
-##### Properties
+##### Properties for TypeScript
 
 |  |String   | Number| Boolean | Object| Any| Clipboard | Void |
 |---|---|---|---|---|---|---|---|
@@ -204,6 +204,13 @@ The following tables list all available snippets.
 | **Property - Array of** | pas | pan | pab | pao | pay| pap| -  |
 | **Read-only Property** | rs | rn | rb | ro | ry| rp| - |
 | **Read-only Property - Array of** | ras | ran | rab | rao | ray| rap| - |
+
+##### Properties for JavaScript
+
+| Snippet  | Searchable Name | Description  | 
+|---|---|---|
+| **p** | **property**| Creates a property declaration. |
+| **rp** | **readonly property**| Creates a read-only property declaration. |
 
 ##### Constants, Variables, Fields, and Parameters
 
@@ -228,28 +235,28 @@ Snippets for declaring variables, fields, parameters, and constants:
 | Clipboard Paste| nmps | nmpn | nmpb | nmpy | nmpp |
 
 
-#### Import/Export 
+#### Import/Export for TypeScript and JavaScript 
 
-| Snippet  | Searchable Name | Description  | 
-|---|---|---|
-| **im**| **import all module**  | Imports a named module. | 
-| **ia**| **import all module**  | Imports everything from the specified module as an alias. | 
-| **id**| **import default module**  | Imports a default module. | 
-| **ip**| **import module part**  | Imports a module part. | 
-| **ipa**| **import module part as alias**   | Imports a named part as an alias. | 
-| **xd**| **export default declaration**  | Exports a default declaration. |
-| **xp**| **export module portion**  | Exports a module portion.  |
-| **xpf**| **export module portion from**  | Exports a declaration portion from a specified module.  |
-| **xf**| **export function**  | Exports a function. |
-| **xdf**| **export default function**  | Exports a default function. |
-| **xc**| **export class without constructor**  | Exports a class with a constructor. |
-| **xc,**| **export class**  | Exports a class without a constructor. |
-| **xt**| **export type literal**  | Exports a class without a constructor. |
-| **xtu**| **export type simple literal**  | Exports a class without a constructor. |
+| TypeScript Snippet | JavaScript Snippet | Searchable Name | Description  | 
+|---|---|---|---|
+| **im**| **im**| **import all module**  | Imports a named module. | 
+| **ia**| **ia** | **import all module**  | Imports everything from the specified module as an alias. | 
+| **id**| **id**| **import default module**  | Imports a default module. | 
+| **ip**| **ip**| **import module part**  | Imports a module part. | 
+| **ipa**| **ipa** |**import module part as alias**   | Imports a named part as an alias. | 
+| **xd**| **xd**| **export default declaration**  | Exports a default declaration. |
+| **xp**|  **xp**|**export module portion**  | Exports a module portion.  |
+| **xpf**| **xpf** | **export module portion from**  | Exports a declaration portion from a specified module.  |
+| **xf**| **xf** | **export function**  | Exports a function. |
+| **xdf**|  **xdf** |**export default function**  | Exports a default function. |
+| **xc**, **xcl**| **xc**, **xcl** |**export class without constructor**  | Exports a class with a constructor. |
+| **xc,**, **xcl,**| **xc,**, **xcl,**| **export class**  | Exports a class without a constructor. |
+| **xt**|  |**export type literal**  | Exports a class without a constructor. |
+| **xtu**| |**export type simple literal**  | Exports a class without a constructor. |
 
 
 
-#### Conditionals & Control Statements
+#### Conditionals & Control Statements for TypeScript and JavaScript
 
 | Snippet  | Searchable Name | Description  | 
 |---|---|---|
@@ -263,7 +270,9 @@ Snippets for declaring variables, fields, parameters, and constants:
 | **frz**  || Creates a for-loop with an iterator variable named "z". |
 | **w** | **while**  | Creates a while statement. |
 | **if**  || Creates an if statement. |
-| **ife**| **ifelse**  | Creates an if-else statement. |
+| **ife**, **ifl**| **ifelse**  | Creates an if-else statement. |
+| **ifn**|  | Creates an if-not statement. |
+| **ifnr**|  | Creates an if-not statement then return. |
 | **sw**| **switch**  | Creates a switch statement. | 
 | **c**| **case**  | Creates a case statement. | 
 | **tc**| **try catch** | Creates a try-catch block. | 
@@ -272,7 +281,7 @@ Snippets for declaring variables, fields, parameters, and constants:
 | **tne**| **throw error**  | Creates a statement that throws an error. |
 
 
-### TypeScript React Snippets
+### TypeScript and JavaScript React Snippets
 
 #### React Imports
 
@@ -306,11 +315,11 @@ Snippets for declaring variables, fields, parameters, and constants:
 |**irse,**| **react import namespace and usestate useeffect** |Imports  React, { useState, useEffect }. |
 
 
-#### React Components
+#### React Components 
 
 | Snippet  | Searchable Name | Description  | 
 |---|---|---|
-|**rc**, **rc,**, **rcs,** | **react component** |Creates a React component declaration. |
+|**rc**  | **react component** |Creates a React component declaration. |
 |**rcs**, | **react component with state** |Creates a React component with the state declaration. |
 |**rpc** | **react pure component** |Creates a React PureComponent declaration. |
 |**rpcs** | **react pure component with state** |Creates a React PureComponent with the state declaration. |
@@ -320,24 +329,33 @@ Snippets for declaring variables, fields, parameters, and constants:
 |**c** | **react component constructor** |Creates a React component constructor declaration. |
 |**cwm** | **react componentWillMount** |Creates a componentWillMount method declaration. |
 |**cdm** | **react componentDidMount** |Creates a componentDidMount method declaration. |
-|**cwu**, **cwum** | **react componentWillUnmount** |Creates a componentWillUnmount method declaration. |
+|**cwu**  | **react componentWillUnmount** |Creates a componentWillUnmount method declaration. |
 |**scu** | **react shouldComponentUpdate** |Creates a shouldComponentUpdate method declaration. |
 |**bmc** | **react bind method call** |Creates a bind method call. |
 |**ss** | **react setState** |Creates a setState method call. |
 |**us** | **react useState** |Creates a useState method call. |
-|**ue** | **react useEffect** |Creates a useEffect method call. |
+|**ue,** | **react useEffect** |Creates a useEffect method call. |
+|**ue** | **react useEffect with conditions** |Creates a useEffect method call with conditions. |
+|**rcc,** | **react create context** |Creates a Context object. |
+|**rcc** | **react create context object** |Creates a Context object. |
+|**ruc** | **react use context** |Creates a useContext method call. |
+|**rucb** | **react use callback** |Creates a useCallback method call. |
+|**rum** | **react use memo** |Creates a useMemo method call. |
+|**rur** | **react use ref** |Creates a useRef method call. |
+|**ule,** | **react useLayoutEffect** |Creates a useLayoutEffect method call. |
+|**ule** | **react useLayoutEffect with conditions** |Creates a useLayoutEffect method call with conditions. |
+|**udv,** | **react useDebugValue** |Creates a useDebugValue method call. |
+|**udv** | **react useDebugValue with format** |Creates a useDebugValue method call with format. |
 
-
-
-### Redux
+### Redux for TypeScript and JavaScript
 
 | Snippet  | Searchable Name | Description  | 
 |---|---|---|
 | **ixa** | **redux import all**| Imports as a Redux (all). |
 | **ixc** | **redux import connect**| Imports a Redux connect. |
-| **xc** | **redux component**| Creates a Redux component. |
+| **xc**, **xcm** | **redux component**| Creates a Redux component. |
 | **xcd** | **redux component with dispatch**| Creates a Redux component with dispatch. |
-| **xcp** | **redux component with own props**| Creates a Redux component with dispatch and ownProps. |
+| **xcp** | **redux component with ownProps**| Creates a Redux component with dispatch and ownProps. |
 | **xms** | **redux map state**| Creates a mapStateToProps function. |
 | **xmsp** | **redux map state and props** | Creates a mapStateToProps function with component properties. |
 | **xmd** | **redux map dispatch**| Creates a mapDispatchToProps function. |
@@ -349,11 +367,11 @@ Snippets for declaring variables, fields, parameters, and constants:
 | **vus** | **redux variable useSelector**| Creates a variable initialized with a Redux selector. |
 | **qud** | **redux constant useDispatch**| Creates a constant initialized with a Redux dispatch. |
 | **vud** | **redux variable useDispatch**| Creates a variable initialized with a Redux dispatch. |
-| **qtus** | **redux constant pre-typed useSelector**| Creates a constant initialized with a Redux pre-typed selector. |
-| **qtud** | **redux constant pre-typed useDispatch**| Creates a constant initialized with a Redux pre-typed dispatch. |
+| **qtus** for TypeScript only | **redux constant pre-typed useSelector**| Creates a constant initialized with a Redux pre-typed selector. |
+| **qtud** for TypeScript only | **redux constant pre-typed useDispatch**| Creates a constant initialized with a Redux pre-typed dispatch. |
 | **xcsl** | **redux create slice**| Creates a Redux slice. |
 
-### TypeScript Action Snippets
+### TypeScript and JavaScript Action Snippets
 
 | Snippet  | Long Name | Description  | 
 |---|---|---|
@@ -361,7 +379,7 @@ Snippets for declaring variables, fields, parameters, and constants:
 | **xbac** | **redux actions bind**| Returns the bindActionCreators. |
 
 
-### TypeScript Reducer Snippets
+### TypeScript and JavaScript Reducer Snippets
 
 | Snippet  | Long Name | Description  | 
 |---|---|---|
@@ -369,7 +387,7 @@ Snippets for declaring variables, fields, parameters, and constants:
 | **xcr** | **redux combine reducers**| Reduxes a combineReducers declaration. |
 
 
-### TypeScript Middleware Snippets
+### TypeScript and JavaScript Middleware Snippets
 
 | Snippet  | Long Name | Description  | 
 |---|---|---|
@@ -377,21 +395,22 @@ Snippets for declaring variables, fields, parameters, and constants:
 | **mwcl** | **middleware crash logger**| Creates a crash logger middleware. |
 | **xcs** | **redux create store** | Creates a Redux store. |
 | **xcsm** | **redux create store with middleware** | Creates a Redux store with middleware.
+| **xgs** | **redux configure store** | Creates a Redux Store configuring.
 
 
-### TypeScript Console Snippets
+### TypeScript and JavaScript Console Snippets
 
-| Snippet  | Long Name | Description  | 
-|---|---|---|
-| **clt** | **console time**| Creates a console log time. |
+| Snippet | Long Name | Description  | 
+|---|---|---
+| **clt** |  **console time**| Creates a console log time. |
 | **cli** | **console info** | Creates a console log info. |
-| **cle** | **console error** | Creates a console log error.
-| **clx** | **console exception** | Creates a console log exception.
-| **cl**, **cl&#96;** | **console log backtick** | Creates a Simple console.log call (backtick quotes).
+| **cle** |  **console error** | Creates a console log error.
+| **clx** |  **console exception** | Creates a console log exception.
+| **cl**, **cl&#96;** |  **console log**, **console log backtick** | Creates a Simple console.log call (backtick quotes).
 | **cl'** | **console log string** | Creates a Simple console.log call (single quotes).
-| **cl&#92;** | **console log string** | Creates a Simple console.log call (double quotes).
-| **cl-** | **console log instance** | Creates a Simple console.log call.
-| **cloo** | **console object object** | Creates a console.log call sending out the specified value as a string.
+| **cl"** | | Creates a Simple console.log call (double quotes).
+| **cl-** |**console log instance** | Creates a Simple console.log call.
+| **cloo** |  **console object object** | Creates a console.log call sending out the specified value as a string.
 
 ## Customization
 
@@ -402,14 +421,12 @@ Snippets for declaring variables, fields, parameters, and constants:
 * Select the **File** | **Preferences** | **Keyboard Shortcuts** menu item 
 
 
-
 ![](media/new/rush-snippets-open-keyboard-shortcuts-menu-item.png)
 
 
 or 
 
 * Сlick **Manage** and choose **Keyboard Shortcuts**. 
-
 
 ![](media/new/rush-snippets-click-manage-keyboard-shortcuts.png)
 
@@ -430,3 +447,21 @@ or
 
 
 ![](media/new/rush-snippets-trigger-template-expansion-with-option.png)
+
+## Telemetry
+
+Today there are many available solutions for collecting analytics; we selected [Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview). This service is a simple, flexible, and reliable tool for collecting and analyzing telemetry. Out of the box we get data collection on events inside the application, sessions, errors, external requests, etc. This data is often more than sufficient to determine product stability, the most-used and least-used features.
+
+A list of least-used features can often lead to identifying discoverability gaps or perhaps issues in the feature implementation that need to be addressed.
+
+By default, analytics collection in **Rush Snippets** is turned off.
+
+If you are using Rush Snippets in VSCode and you would like to help us improve the extension based on anonymous usage statistics, all you need to do is check the "Enable Customer Experience Program" checkbox in the **Rush Core Settings** page.
+
+
+![](media/new/rush-snippets-telemetry-option.png)
+
+Checking this option will allow us to receive anonymous usage statistics, so we can better understand how our customers are using Rush Snippets. No personally-identifiable information will ever reach us.
+
+I should emphasize that this checkbox is on the **Rush Core** settings page and not the **Rush Snippets** settings page. Rush Core is our root extension containing all the services needed to run Rush Snippets as well as other dev tool extensions from DevExpress.
+
