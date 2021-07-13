@@ -6,7 +6,6 @@ Rush Snippets is a collection of easy-to-recall VS Code shortcuts that expand in
 
 
 ![](media/new/rush-snippets-overview.gif)
-![](media/rush-snippets-overview.gif)
 
 Rush Snippets can help you declare code more efficiently, with: 
 
@@ -463,5 +462,5 @@ If you are using Rush Snippets in VSCode and you would like to help us improve t
 
 Checking this option will allow us to receive anonymous usage statistics, so we can better understand how our customers are using Rush Snippets. No personally-identifiable information will ever reach us.
 
-I should emphasize that this checkbox is on the **Rush Core** settings page and not the **Rush Snippets** settings page. Rush Core is our root extension containing all the services needed to run Rush Snippets as well as other dev tool extensions from DevExpress.
+This checkbox is on the **Rush Core** settings page and not the **Rush Snippets** settings page. Rush Core is our root extension containing all the services needed to run Rush Snippets as well as other dev tool extensions from DevExpress.
 
