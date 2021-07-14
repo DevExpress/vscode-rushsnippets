@@ -1,6 +1,6 @@
 # Rush Snippets
 
-#### Code Snippets for TypeScript, JavaScript, React and Redux projects. 
+#### Code Snippets for TypeScript, JavaScript, React, and Redux projects. 
 
 Rush Snippets is a collection of easy-to-recall VS Code shortcuts that expand into larger blocks of boilerplate code developers create all the time. 
 
@@ -332,19 +332,19 @@ Snippets for declaring variables, fields, parameters, and constants:
 |**scu** | **react shouldComponentUpdate** |Creates a shouldComponentUpdate method declaration. |
 |**bmc** | **react bind method call** |Creates a bind method call. |
 |**ss** | **react setState** |Creates a setState method call. |
-|**us** | **react useState** |Creates a useState method call. |
-|**ue,** | **react useEffect** |Creates a useEffect method call. |
-|**ue** | **react useEffect with conditions** |Creates a useEffect method call with conditions. |
+|**rus** | **react useState** |Creates a useState method call. |
+|**rue,** | **react useEffect** |Creates a useEffect method call. |
+|**rue** | **react useEffect with dependencies** |Creates a useEffect method call with dependencies. |
 |**rcc,** | **react create context** |Creates a Context object. |
 |**rcc** | **react create context object** |Creates a Context object. |
 |**ruc** | **react use context** |Creates a useContext method call. |
 |**rucb** | **react use callback** |Creates a useCallback method call. |
 |**rum** | **react use memo** |Creates a useMemo method call. |
 |**rur** | **react use ref** |Creates a useRef method call. |
-|**ule,** | **react useLayoutEffect** |Creates a useLayoutEffect method call. |
-|**ule** | **react useLayoutEffect with conditions** |Creates a useLayoutEffect method call with conditions. |
-|**udv,** | **react useDebugValue** |Creates a useDebugValue method call. |
-|**udv** | **react useDebugValue with format** |Creates a useDebugValue method call with format. |
+|**rule,** | **react useLayoutEffect** |Creates a useLayoutEffect method call. |
+|**rule** | **react useLayoutEffect with dependencies** |Creates a useLayoutEffect method call with dependencies. |
+|**rudv,** | **react useDebugValue** |Creates a useDebugValue method call. |
+|**rudv** | **react useDebugValue with format** |Creates a useDebugValue method call with format. |
 
 ### Redux for TypeScript and JavaScript
 

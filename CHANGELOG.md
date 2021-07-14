@@ -1,6 +1,6 @@
 # Change Log
 
-## 1.0.2 (July 15, 2021)
+## 1.0.2 (July 14, 2021)
 * JavaScript and React/Redux snippets
 * New snippets for React hooks: useContext, useReducer, useCallback, useMemo, useRef, useImperativeHandle, useLayoutEffect, and useDebugValue
 * Significant improvements in the imports declaration
